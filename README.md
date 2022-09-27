@@ -13,15 +13,21 @@ Grafana 的另一個便利特點是可將監控的頁面儲存成樣板，若輸
 docker run -d --name grafana -p 3000:3000 grafana/grafana
 ```
 ### 完成
-1. 完成上述設定後可從 localhost:3000 看到此登入頁面
-![image.png](/grafana/1.png)
-2. 登入(預設帳號:admin, 密碼:admin)
-3. 進入設定頁面
-![image.png](/grafana/2.png)
-4. 選擇套版(可至[Grafana官網](https://grafana.com/grafana/dashboards/)選擇喜歡的版面)，按下Load
-![image.png](/grafana/3.png)
-5. 完成
-![image.png](/grafana/4.png)
+1. 完成上述設定後可從 localhost:3000 看到此登入頁面(預設帳號:admin, 密碼:admin)  
+![image.png](/sample/1.png)  
+2. 登入後進入設定頁面  
+![image.png](/sample/2.png)  
+3. 設定資料來源  
+![image.png](/sample/3.png)  
+4. 選擇 Prometheus 後填入位置  
+![image.png](/sample/4.png)  
+5. 確認並測試OK  
+![image.png](/sample/5.png)  
+6. 選擇套版(可至[Grafana官網](https://grafana.com/grafana/dashboards/)選擇喜歡的版面)，按下Load  
+![image.png](/sample/6.png)  
+![image.png](/sample/7.png)  
+5. 完成  
+![image.png](/sample/8.png)  
 
 ----
 # 參考文件
